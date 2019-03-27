@@ -14,12 +14,14 @@
 	//  }
 	 
 	 class Database {
+		 //identifikasi database
 		 private $host = 'localhost';
-		 private $db = 'db_coba';
+		 private $db = 'db_smart';
 		 private $username = 'root';
 		 private $password = '';
 		 private $conn;
 
+		 //function koneksi
 		 public function connect(){
 			 $this->conn = null;
 
